@@ -1,7 +1,7 @@
 .theme-panel {
     position: fixed;
     right: 0;
-    top: 20%;
+    top: 10%;
     z-index: 100;
     transition: 0.4s;
     transform: translateX(100%);
@@ -111,20 +111,59 @@
     color: var(--color-text);
 }
 
-.hero-content {
-    text-align: center;
+.hero-content { 
     margin-top: 5rem;
-}
+    /* cursor: pointer; */
+ }
 
 .handshake-icon {
     color: var(--color-text);
     background-color: #495fef;
     display: inline-block;
     padding: 1rem;
-    text-align: center;
     border-radius: 40%;
 }
 
 .fa-handshake {
     font-size: 3rem;
+}
+
+.header-md {
+    margin-top: 3rem;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.gallery-card {
+    max-height: 200px;
+    overflow: hidden;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 10px;
+    margin: 0 1rem 1rem;
+}
+
+.gallery-card .img-wrapper img { border-radius: 10px; }
+
+.card-hover {
+    position: absolute;
+    color: var(--color-text-base);
+    background-color: var(--bg-panel);
+    width: 80%;
+    bottom: 0;
+    left: 10%;
+    right: -10%;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.card-hover > p { margin-top: 0.5rem; }
+
+.gallery-card:hover .card-hover {
+    opacity: 1;
 }

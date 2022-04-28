@@ -58,7 +58,10 @@ button { outline: none; }
     margin-right: auto;
 }
 
-.container { max-width: 1140px; }
+.container { 
+    max-width: 1140px;
+    text-align: center;
+ }
 
 .ul-defaults-none {
     list-style: none;
