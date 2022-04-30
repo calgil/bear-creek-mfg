@@ -121,7 +121,7 @@ const reviewArray = [
     {reviewText: 'Great service! I was helped quickly and within my budget.',
     img: './assets/avatar.jpeg', authorName: 'Eli Melton', company: 'Linear Manufacturing'},
 
-    {reviewText: 'Super knowledgeable! Helped with a repair when no one else would.',
+    {reviewText: 'Super knowledgeable! Helped with a repair when no one else could.',
     img: './assets/avatar-1.jpeg', authorName: 'Rick Johnson', company: 'Micron Manufacturing'},
 
     {reviewText: 'I couldn\'t have done it without their help.',

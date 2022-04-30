@@ -194,7 +194,7 @@ h3.review-heading {
 .review-carousel .review-item {
     background: var(--bg-panel);
     color: var(--color-text-base);
-    max-width: 450px;
+    max-width: 300px;
     width: 100%;
     padding: 2.5rem;
     border-radius: 24px;
@@ -217,9 +217,9 @@ h3.review-heading {
     opacity: 0.25;
 }
 
-.review-item.prev { transform: translateX(-75%); }
+.review-item.prev { transform: translateX(-95%); }
 
-.review-item.next { transform: translateX(75%); }
+.review-item.next { transform: translateX(95%); }
 
 .review-author { 
     display: flex;
@@ -311,6 +311,13 @@ h3.review-heading {
     opacity: 1;
 }
 
+.modal-img-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.modal-img-wrapper img { border-radius: 10px; }
+
 .about-text {
     max-width: 100ch;
     margin: 0 auto;
@@ -359,10 +366,10 @@ h3.review-heading {
     .review-item.next { transform: translateX(50%); }
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
     .review-item.prev { transform: translateX(-30%); }
     .review-item.next { transform: translateX(30%); }
-}
+} */
 
 @media (max-width: 730px) {
     .logo-bg { display: none; }
