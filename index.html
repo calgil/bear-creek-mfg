@@ -30,13 +30,12 @@
     <main>
         <header class="site-header">
             <nav class="navbar">
-                <div class="logo-bg"><a class="nav-link" href="index.html">Bear Creek Manufacturing</a>
-                    <div class="logo-sm"><a class="nav-link" href="index.html">BC MFG</a></div>
-                </div>
+                <div class="logo-bg"><a class="nav-link" href="index.html">Bear Creek Manufacturing</a></div>
+                <div class="logo-sm"><a class="nav-link" href="index.html">Bear Creek</a></div>
                 <div class="navbar-nav">
                     <ul class="ul-defaults-none main-menu">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item" data-open="about">About Me</li>
+                        <li class="nav-item" data-open="about">About Us</li>
                         <li class="nav-item" data-open="contact">Contact</li>
                     </ul>
                 </div>
@@ -46,7 +45,7 @@
             <div class="container">
                 <div class="hero-content">
                     <div class="handshake-icon"><i class="fa-solid fa-handshake"></i></div>
-                    <h2 class="header-lg">Quality Manufacturing</h2>
+                    <h2 class="header-lg">Quality <br> Manufacturing</h2>
                     <div class="sub-header">
                         We craft solutions that last.
                     </div>
@@ -57,70 +56,80 @@
             </div>
         </section>
         <section class="container">
-            <div class="gallery-header">
+            <div class="section-header">
                 <h3 class="header-md">What We Do</h3>
-                <p class="sub-header">Here's a look at some of our past work.</p>
+                <p class="sub-header">Here's a look at some of our work.</p>
             </div>
            <div class="gallery-container">
-                <div class="gallery-card">
-                    <div class="img-wrapper">
-                        <img src="./assets/drill-maching.jpeg" alt="drilling machine">
-                    </div>
-                    <div class="card-hover">
-                        <p>Custom Fabrication</p>
-                        <p>Made to order parts and components</p>
-                    </div>
-                </div>
-                <div class="gallery-card">
-                    <div class="img-wrapper">
-                        <img src="./assets/laser.jpeg" alt="drilling machine">
-                    </div>
-                    <div class="card-hover">
-                        <p>Custom Fabrication</p>
-                        <p>Made to order parts and components</p>
-                    </div>
-                </div>
-                <div class="gallery-card">
-                    <div class="img-wrapper">
-                        <img src="./assets/milling-machine.jpeg" alt="milling machine">
-                    </div>
-                    <div class="card-hover">
-                        <p>Custom Fabrication</p>
-                        <p>Made to order parts and components</p>
-                    </div>
-                </div>
-                <div class="gallery-card">
-                    <div class="img-wrapper">
-                        <img src="./assets/machining.jpeg" alt="milling machine">
-                    </div>
-                    <div class="card-hover">
-                        <p>Custom Fabrication</p>
-                        <p>Made to order parts and components</p>
-                    </div>
-                </div>
-                <div class="gallery-card">
-                    <div class="img-wrapper">
-                        <img src="./assets/sparks.jpeg" alt="sparks">
-                    </div>
-                    <div class="card-hover">
-                        <p>Custom Fabrication</p>
-                        <p>Made to order parts and components</p>
-                    </div>
-                </div>
-                <div class="gallery-card">
-                    <div class="img-wrapper">
-                        <img src="./assets/welding.jpeg" alt="welding">
-                    </div>
-                    <div class="card-hover">
-                        <p>Custom Fabrication</p>
-                        <p>Made to order parts and components</p>
-                    </div>
-                </div>
-                
-           </div>
 
+           </div>
+        </section>
+        <section class="container">
+            <div class="section-header">
+                <p class="sub-header">Trusted by Clients</p>
+                <h3 class="header-md review-heading">What People are Saying</h3>
+                <div class="review-banner">
+                </div>
+            </div>
+            <div class="review-carousel">
+              
+            </div>
+            <div class="slide-ctrl-container">
+                <button>
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
         </section>
 
+
+        <!-- Full Page Modals -->
+        <div id="about" class="full-site-modal page-block" data-animation="zoomInOut">
+            <div class="container-fluid">
+                <header class="modal-header">
+                    <h3>About Page</h3>
+                    <i class="fas fa-times" data-close></i>
+                </header>
+                <div class="modal-body">
+                    <div class="about-text">
+                        <h2 class="header-md">Bear Creek MFG</h2>
+                        <p>
+                            Bear Creek Manufacturing is a family owned and operated small business. 
+                            We are problem solvers looking to provide machining, welding and fabrication solutions to our clients. 
+                            Please shoot us an email and we'll get back to you as soon as possible.
+                        </p>
+                        <div class="contact-me-block">
+                            <div> Email Us:</div>
+                                <a href="mailto:bearcreekmfg@gmail.com">bearcreekmfg@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--     Contact Modal -->
+        <div id="contact" class="full-site-modal page-block" data-animation="zoomInOut">
+           <div class="container-fluid">
+            <header class="modal-header">
+                <h3>Contact Page</h3>
+                <i class="fas fa-times" data-close></i>
+            </header>
+                <div class="modal-body">
+                    <div class="contact-text">
+                        <h2 class="header-md">Bear Creek MFG</h2>
+                        <div>Have a project or question? Send us a message.</div>
+                    </div>
+                    <form class="folio-form" action="#">
+                        <input class="form-control" name="name" type="text" placeholder="Name">
+                        <input class="form-control" name="email" type="email" placeholder="Email">
+                        <input class="form-control" name="message" type="text" placeholder="Subject">
+                        <textarea class="form-control" name="" id="" cols="30" rows="3" placeholder="Write your message"></textarea>
+                        <input type="submit" class="btn btn-primary round-pill">
+                    </form>
+                </div>
+           </div>
+        </div>
 
     </main>
 
