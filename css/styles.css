@@ -319,8 +319,10 @@ h3.review-heading {
 .modal-img-wrapper img { border-radius: 10px; }
 
 .about-text {
-    max-width: 100ch;
+    max-width: 75ch;
     margin: 0 auto;
+    letter-spacing: .5px;
+    line-height: 1.6rem;
 }
 
 .contact-text { text-align: center; }
